@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script type="text/javascript" src="./codigoJS.js"></script>
+    <title>Formulario DBP</title>
+</head>
+<body>
+    <div class="d-flex align-items-center justify-content-center c-padre">
+        <div class="c-hijo">
+            <h2 class="text-center encabezado">Laboratorio JavaScript</h2>
+            <div class="c-inputs">
+                <div class="inputs">
+                    <label for="p-nombre" class="label-inputs"><b>Primer Nombre</b></label>
+                    <input type="text" id="p-nombre" class="cont-inputs">
+                </div>
+                <div class="inputs">
+                    <label for="s-nombre" class="label-inputs"><b>Segundo Nombre</b></label>
+                    <input type="text" id="s-nombre" class="cont-inputs">
+                </div>
+                <div class="inputs">
+                    <label for="p-apellido" class="label-inputs"><b>Primer Apellido</b></label>
+                    <input type="text" id="p-apellido" class="cont-inputs">
+                </div>
+                <div class="inputs">
+                    <label for="s-apellido" class="label-inputs"><b>Segundo Apellido</b></label>
+                    <input type="text" id="s-apellido" class="cont-inputs">
+                </div>
+                <div class="inputs">
+                    <label for="dni" class="label-inputs"><b>DNI</b></label>
+                    <input type="text" id="dni" class="cont-inputs">
+                </div>
+                <div class="inputs">
+                    <label for="f-nacim" class="label-inputs"><b>Fecha de Nacimiento</b></label>
+                    <input type="date" id="f-nacim" class="cont-inputs">
+                </div>
+                <div class="inputs">
+                    <button class="btn btn-primary boton-procesar" id="boton-procesar" onclick="mostrarInfo()">Procesar</button>
+                </div>
+                <div class="inputs">
+                    <label for="nombre-completo" class="label-inputs"><b>Nombre Completo</b></label>
+                    <div id="nombre-completo" class="cont-info">
+                        ...
+                    </div>
+                </div>
+                <div class="inputs">
+                    <label for="ultimo-dni" class="label-inputs"><b>Último Dígito del DNI</b></label>
+                    <div id="ultimo-dni" class="cont-info">
+                        ...
+                    </div>
+                </div>
+                <div class="inputs">
+                    <label for="edad" class="label-inputs"><b>Edad</b></label>
+                    <div id="edad" class="cont-info">
+                        ...
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
